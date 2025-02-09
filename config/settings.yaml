@@ -40,12 +40,12 @@ redirect_settings:
 # ┗━━━━━━━━━━━━━━━━━━━━━┛
 # Integration settings for automated CAPTCHA resolution
 
-captcha_module: 2captcha      # CAPTCHA service selection:
+captcha_module: anticaptcha      # CAPTCHA service selection:
                               # ► 2captcha: Primary solution
                               # ► anticaptcha: Secondary option
 
 two_captcha_api_key: ""       # Authentication key for 2captcha
-anti_captcha_api_key: ""      # Authentication key for anticaptcha
+anti_captcha_api_key: "1232fadd3e43c97df7cfa9e683f08c0a"      # Authentication key for anticaptcha
 
 # ┏━━━━━━━━━━━━━━━━━━━━━┓
 # ┃   STARTUP TIMING     ┃
